@@ -1,0 +1,49 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(154, 218, 213);
+}
+.counter-box{
+    flex: 0 0 70%;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    border: 10px solid rgb(119, 6, 95);
+}
+
+#title{
+    font-size: 4rem;
+}
+.btn{
+    background: #fff;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem 0.25rem;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(236, 139, 12);
+    color: white;
+}
+.btn:active{
+    box-shadow: none;
+}
+
+#inputNumber{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding-left: 10px;
+}
+#result{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(26, 6, 116);
+}
