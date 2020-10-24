@@ -1,49 +1,60 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(154, 218, 213);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.counter-box{
-    flex: 0 0 70%;
+body { 
+    background: url("./images/perfect-wallpaper-13.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
-    padding: 1rem;
-    font-weight: bold;
-    border: 10px solid rgb(119, 6, 95);
 }
 
-#title{
-    font-size: 4rem;
-}
-.btn{
-    background: #fff;
-    border-radius: 8px;
-    font-size: 2rem;
-    padding: 0.5rem;
-    margin: 1rem 0.25rem;
-    outline: none;
-}
-.btn:hover{
-    background-color: rgb(236, 139, 12);
+h1{
+    padding: 20px;
     color: white;
-}
-.btn:active{
-    box-shadow: none;
+    font-size: bold;
+    font-family: 'Sansita Swashed', cursive;
 }
 
-#inputNumber{
-    height: 40px;
-    width: 250px;
-    border-radius: 10px;
-    border: none;
+#guess ,#check{
     outline: none;
-    font-size: 22px;
-    padding-left: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
 }
-#result{
-    font-size: 40px;
+
+
+#guess {
+    width: 270px;
+    margin-bottom: 10px;
+}
+#answer{
+    font-size: 1.5rem;
+    padding: 10px;
     font-weight: bold;
-    font-style: italic;
-    color: rgb(26, 6, 116);
+    font-family: 'Sansita Swashed', cursive;
 }
+
+
+p {
+    margin-top: 10px;
+    margin-bottom:40px;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 10px;
+    color: #F4EA74;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.cardStyle {
+    margin: auto auto;
+    background-color: #ffa726;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+
